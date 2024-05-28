@@ -8,7 +8,7 @@ gcloud auth application-default login
 ## Usage Example
 
 ```
-gptscript --default-model='gemini-1.0-pro from github.com/gptscript-ai/gemini-vertexai-provider' examples/bob.gpt
+gptscript --disable-cache=true --default-model='gemini-1.5-pro-preview-0409 from github.com/gptscript-ai/gemini-vertexai-provider' examples/sentiments.gpt
 ```
 
 ## Development
